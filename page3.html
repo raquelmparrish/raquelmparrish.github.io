@@ -4,6 +4,14 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
+h3 {
+  font-family: 'Poppins', cursive;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -45px;
+}
+
 body {
   background: url(images/Desktop-03-01.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -13,33 +21,34 @@ body {
 }
 
 span {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', cursive;
   font-weight: bold;
   color: #97D3C3;
   position: fixed;
-  top: 87px;
+  top: 235px;
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #97D3C3;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
+  padding: 10px 4px 34px 38px;
+  text-decoration: none;
+  font-size: 45px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Poppins', cursive;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -58,6 +67,11 @@ span {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+embed {
+  position: relative;
+  left: 425px;
+  top: -100px;
+}
 </style>
 </head>
 <body>
@@ -69,10 +83,11 @@ span {
     <a href="page3.html">Resume</a>
     <a href="page4.html">Contact</a>
   </div>
+<h3>Resume</h3>
 
-<h2></h2>
-<p></p>
 <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Click Me!</span>
+
+<embed src="RaquelParrish_Resume.pdf" width= 500px height=800px type="application/pdf">
 
 <script>
 function openNav() {
