@@ -10,13 +10,13 @@
 /**/
 
 html,body{
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif !important;
     font-size:18px;
     color: var(--main-font-color);
     line-height: 0.9;
 }
 body{
-    background-color: var(--main-color);
+    background-color: var(--main-color) !important;
 }
 .container{
     padding:20px;
@@ -44,9 +44,9 @@ body{
 .small-caps{
     font-variant: small-caps;
 }
-.secondary-text{
+/* .secondary-text{
     color: var(--secondary-font-color);
-}
+} */
 
 /* Desktop rules */
 @media only screen and (max-height:650px){
