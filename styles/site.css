@@ -18,11 +18,11 @@ html,body{
 body{
     background-color: var(--main-color) !important;
 }
-.container{
-    padding:20px;
+#header{
+    margin:10px;
 }
 .parallax-window {
-    min-height: 600px;
+    min-height: 950px;
     background: transparent;
 }
 .parallax-overlay-text{
@@ -34,7 +34,7 @@ body{
 }
 .section-divider{
     display:block;
-    min-height:35px;
+    height:35px;
     text-align: center;
     bottom: 0;
 }
@@ -55,6 +55,16 @@ body{
         background: transparent;
     }
     .section-divider{
-        min-height: 15px;
+        height: 25px;
+    }
+}
+@media only screen and (min-width:869px){
+    #header{
+        margin:0;
+        margin-left:1%;
+        padding:20px;
+    }
+    .section-divider{
+        height: 55px;
     }
 }
