@@ -11,7 +11,7 @@
 
 html,body{
     font-family: Helvetica, sans-serif !important;
-    font-size:18px;
+    font-size: 1.2em !important;
     color: var(--main-font-color);
     line-height: 0.9;
 }
@@ -22,7 +22,7 @@ body{
     margin:10px;
 }
 .parallax-window {
-    min-height: 950px;
+    min-height: 350px;
     background: transparent;
 }
 .parallax-overlay-text{
@@ -35,9 +35,6 @@ body{
 .parallax-container{
     padding: 0;
     margin: 0;
-}
-.parallax-window-tall{
-    min-height: 1060px !important;
 }
 .section-divider{
     display:block;
