@@ -1,95 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/small-device.css" />
-<style>
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-img {
-  /*position: absolute;
-  top: 150px;
-  right: -200px;*/
-}
-body {
-  background: url(images/Desktop-01.svg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #140d08
-}
-span {
-  font-family: 'Poppins', cursive;
-  font-weight: bold;
-  color: #97D3C3;
-  position: fixed;
-  top: 190px;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #97D3C3;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 10px 4px 34px 38px;
-    text-decoration: none;
-    font-size: 45px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    font-family: 'Poppins', cursive;
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="scripts/plugins/parallax.js-1.5.0/parallax.min.js"></script>
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scripts/site.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/site.css" />
+  <title>Raquel Parrish (Designer Portfolio)</title>
 </head>
+
 <body>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="page2.html">Portfolio</a>
-  <a href="page3.html">Resume</a>
-  <a href="page4.html">Contact</a>
-</div>
-
-<span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; Click Me!</span>
-
-<img src="images/Rokymonster-01.svg">
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-
+  <div id="header" class="container">
+      <div class="row"><h1 class="small-caps">Raquel Parrish</h1></div>
+      <div class="row"><h2 class="secondary-text">Designer Portfolio</h2></div>
+  </div>
+  <div class="parallax-container">
+    <div id="main-image" class="parallax-window" data-parallax="scroll" data-image-src="images/peek-a-boo-bubbles.jpg">
+      <h4 class="parallax-overlay-text">Toy Design</h4>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+  <div class="parallax-container">
+    <div id="main-image" class="parallax-window" data-parallax="scroll" data-image-src="images/slime-stinkeez1.jpg">
+    </div>
+  </div>
+  <div class="section-divider"></div>
+  <div class="parallax-container">
+    <div id="featured-img-2" class="parallax-window" data-parallax="scroll" data-image-src="images/lick-a-bubble1.jpg">
+      <h4 class="parallax-overlay-text">Displays</h4>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+  <div class="parallax-container">
+    <div id="featured-img-2" class="parallax-window" data-parallax="scroll" data-image-src="images/animal-cubes2.jpg">
+      <h4 class="parallax-overlay-text">Illustrations</h4>
+    </div>
+  </div>
+  <div class="section-divider"></div>
+  <div class="section-divider container text-center">
+    <p>2018 Raquel Maria Parrish</p>
+    <p>Website by Mikael A. Mendoza</p>
+  </div>
 </body>
+
 </html>
