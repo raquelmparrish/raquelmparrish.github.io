@@ -21,6 +21,31 @@ body{
 #header{
     margin:10px;
 }
+/* -- Nav Bar Customization -- */
+.navbar-custom {
+    background-color: var(--main-color);
+}
+/* Brand and Text */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: var(--secondary-font-color) !important;
+}
+/* Links */
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--secondary-font-color);
+}
+/* Active or Hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: var(--secondary-color);
+}
+/* Burger menu icon */
+.fa.fa-navicon {
+    color:white;
+  }
+/* -- */
+
+/* Parallax rules */
 .parallax-window {
     min-height: 350px;
     background: transparent;
